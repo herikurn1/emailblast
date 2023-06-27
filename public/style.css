@@ -1,0 +1,14 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(236, 213, 232) 0%, 
+    rgb(50, 112, 118)100%);
+}
+
+.gallery{
+    width: 100%;
+} */

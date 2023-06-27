@@ -22,6 +22,9 @@ Route::get('signin', 'Sys\SysController@signin');
 Route::get('login', 'Sys\SysController@signin')->name('login');
 Route::post('signin_process', 'Sys\SysController@signin_process');
 Route::get('signout', 'Sys\SysController@signout');
+Route::get('/hello', function () {
+    
+});
 
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
@@ -73,4 +76,23 @@ Route::group(['middleware' => ['portalAuth']], function() {
 			Route::post('/delete_modul', 'Sys\CRole@delete_modul');
 		});
 	});
+});
+
+Route::get('/history', function () {
+    return view('history');
+});
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/login', function () {
+	return view('login');
+});
+
+Route::get('/signup', function () {
+	return view('signup');
+});
+Route::get('/searchresult', function () {
+	return view('searchresult');
 });
