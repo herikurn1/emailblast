@@ -28,12 +28,21 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+<<<<<<< HEAD
     <link href="/css/searchbar.css" rel="stylesheet">
+=======
+    <link href="/css/hasna_css/welcome.css" rel="stylesheet">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 </head>
 
 <body>
 
+<<<<<<< HEAD
     <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
+=======
+<div class="wrapper1">
+<nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
         <img src="hasna_img/img.navbar.jpg" alt="Description of the image" class="image-style">
         <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon "></span>
@@ -50,6 +59,7 @@
                     <a class="nav-link" href="#" onclick="openSearchBar()"><b>SEARCH</b></a>
                 </li>
             </ul>
+<<<<<<< HEAD
         </div>
     </nav>
 
@@ -58,6 +68,13 @@
             </div> -->
 
         <div class="searchbar" id="searchbar">
+=======
+            </nav>
+</div>
+    
+
+    <div class="search-bar" id="searchbar">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
             <div class="input-group">
         <input type="text" class="form-control" placeholder="Search Date">
         <div class="input-group-append">
@@ -66,6 +83,17 @@
             </button>
         </div>
     </div></div>
+<<<<<<< HEAD
+=======
+</div>
+
+
+    <!-- <div class="search-bar" id="searchbar">
+                <h1> testtttt </h1>
+            </div> -->
+
+        
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
     
     <div class="wrapper">
 

@@ -52,11 +52,16 @@
     <!------ Include the above in your HEAD tag ---------->
 
 
+<<<<<<< HEAD
     <link href="/css/hasnasignup.css" rel="stylesheet">
+=======
+    <link href="/css/hasna_css/sign-up.css" rel="stylesheet">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 </head>
 
 <body>
 
+<<<<<<< HEAD
     <div class="zcontents">
         <!-- <div class="orange"> -->
         <div class="zkiri">
@@ -65,6 +70,16 @@
 
         <div class="zkanan">
             <img src="hasna_img/emailblast.png" alt="Description of the image" class="zimage-style-2">
+=======
+    <div class="contents">
+        <!-- <div class="orange"> -->
+        <div class="kiri">
+            <img src="hasna_img/big-orange.png" alt="Description of the image" class="image-style">
+        </div>
+
+        <div class="kanan">
+            <img src="hasna_img/emailblast.png" alt="Description of the image" class="image-style-2">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 
             <!-- <div class="signup-contents"> -->
             <!-- <div class="container"> -->
@@ -75,36 +90,60 @@
             <body id="LoginForm">
                 <!-- <div class="container"> -->
 
+<<<<<<< HEAD
                 <div class="zlogin-form">
                     <div class="zmain-div">
+=======
+                <div class="login-form">
+                    <div class="main-div">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
                         <!-- <div class="panel"> -->
                     </div>
 
 
                     <!-- User Name Input -->
+<<<<<<< HEAD
                     <div class="zform-group row justify-content-center px-3">
                         <div class="zcol-4 px-0">
                             <input style="font-family:Arial, FontAwesome; border-radius: 11px;" type="text" placeholder="&#xf007; &nbsp; USERNAME" class="zform-control border-info placeicon">
+=======
+                    <div class="form-group row justify-content-center px-3">
+                        <div class="col-4 px-0">
+                            <input style="font-family:Arial, FontAwesome; border-radius: 11px;" type="text" placeholder="&#xf007; &nbsp; USERNAME" class="form-control border-info placeicon">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
                         </div>
                     </div>
 
                     <!-- Email Input -->
+<<<<<<< HEAD
                     <div class="zform-group row justify-content-center px-3">
                         <div class="zcol-4 px-0">
                             <input style="font-family:Arial, FontAwesome; border-radius: 11px;" type="text" placeholder="&#xf0e0; EMAIL" class="zform-control border-info placeicon">
+=======
+                    <div class="form-group row justify-content-center px-3">
+                        <div class="col-4 px-0">
+                            <input style="font-family:Arial, FontAwesome; border-radius: 11px;" type="text" placeholder="&#xf0e0; EMAIL" class="form-control border-info placeicon">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 
                         </div>
                     </div>
 
                     <!-- Password Input -->
+<<<<<<< HEAD
                     <div class="zform-group row justify-content-center px-3">
                         <div class="zcol-4 px-0">
                             <input style="font-family:Arial, FontAwesome; border-radius: 11px; " type="password" placeholder="&#xf023; PASSWORD" class="z-form-control border-info placeicon">
+=======
+                    <div class="form-group row justify-content-center px-3">
+                        <div class="col-4 px-0">
+                            <input style="font-family:Arial, FontAwesome; border-radius: 11px; " type="password" placeholder="&#xf023; PASSWORD" class="form-control border-info placeicon">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 
                         </div>
                     </div>
 
 
+<<<<<<< HEAD
                     <div class="zform-group row justify-content-center px-3">
                         <div class="zcol-4 px-0">
                             <input style="font-family:Arial, FontAwesome; border-radius: 11px;" type="password" placeholder="&#xf023; CONFIRM PASSWORD" class="zform-control border-info placeicon">
@@ -115,12 +154,29 @@
 
                     <div class="zcol">
                         <button class="zcol btn btn-orange-moon btn-rounded" style="font-weight: bold; max-width: 251px; height: 33px; position: absolute; left: 243px;border-radius: 11px;">Create Account
+=======
+                    <div class="form-group row justify-content-center px-3">
+                        <div class="col-4 px-0">
+                            <input style="font-family:Arial, FontAwesome; border-radius: 11px;" type="password" placeholder="&#xf023; CONFIRM PASSWORD" class="form-control border-info placeicon">
+                        </div>
+                    </div>
+
+                    <div class="row mt-3 col-4 justify-center">
+
+                    <div class="col">
+                        <button class="col btn btn-orange-moon btn-rounded" style="font-weight: bold; max-width: 251px; height: 33px; position: absolute; left: 243px;border-radius: 11px;">Create Account
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
                         </button>
 
                     </div>
 
+<<<<<<< HEAD
                     <div class="zcol-6 px-0 text-right" style="font-weight: bold; max-width: 27%; position:absolute; top:34px; right: -184px; text-decoration:underline;">
                         <span><a style="color: black" href="#" class="ztext"><b>Log In</b></a></span>
+=======
+                    <div class="col-6 px-0 text-right" style="font-weight: bold; max-width: 27%; position:absolute; top:34px; right: -184px; text-decoration:underline;">
+                        <span><a style="color: black" href="#" class="text"><b>Log In</b></a></span>
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
                     </div>
 
 

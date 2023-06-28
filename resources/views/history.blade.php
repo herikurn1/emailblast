@@ -60,12 +60,17 @@
 
 
 
+<<<<<<< HEAD
     <link href="/css/hasnacompose.css" rel="stylesheet">
+=======
+    <link href="/css/hasna_css/history.css" rel="stylesheet">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 </head>
 
 
 <body>
 
+<<<<<<< HEAD
 
     <div class="wrapper-navbar">
         <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
@@ -93,13 +98,51 @@
             <input type="text" class="form-control" placeholder="Search">
         </div>
     </div>
+=======
+<div class="wrapper1">
+<nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
+        <img src="hasna_img/img.navbar.jpg" alt="Description of the image" class="image-style">
+        <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#offer"><b>HOME</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><b>HISTORY</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="openSearchBar()"><b>SEARCH</b></a>
+                </li>
+            </ul>
+            </nav>
+</div>
+    
+
+    <div class="search-bar" id="searchbar">
+            <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Date">
+        <div class="input-group-append">
+            <button class="btn btn-secondary" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div></div>
+</div>
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 
 
     <div class="wrapper">
 
   
           
+<<<<<<< HEAD
     <table id="example" class="table table-striped table-bordered" style="margin: 50pt">
+=======
+    <table id="example" class="table table-striped table-bordered" style="margin: 50pt; border-radius:20px">
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
   <thead>
       <tr>
           <th>User ID</th>
@@ -248,6 +291,25 @@
     <script>
         CKEDITOR.replace('Article_editor');
     </script>
+<<<<<<< HEAD
+=======
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        var counter = 0;
+
+        function openSearchBar() {
+            counter++
+            console.log(counter)
+            const search_box = document.getElementById("searchbar");
+            if (counter % 2 == 0) {
+                search_box.style.display = "none"
+            } else {
+                search_box.style.display = "block"
+            }
+
+        }
+    </script>
+>>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
 </body>
 
 

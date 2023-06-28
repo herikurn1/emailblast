@@ -26,8 +26,50 @@ Route::get('/hello', function () {
     
 });
 
-Route::get('/', 'HomeController@index');
-Route::get('/home', 'HomeController@index')->name('home');
+/* Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');*/
+
+
+
+Route::get('/#', function () {
+    return view('home');
+});
+
+Route::get('/welcome', function () {
+	return view('welcome');
+});
+
+Route::get('/selecttemplate', function () {
+	return view('selecttemplate');
+});
+
+Route::get('/draft', function () {
+	return view('draft');
+});
+
+Route::get('/createtemplate', function () {
+	return view('createtemplate');
+});
+
+Route::get('/history', function () {
+	return view('history');
+});
+
+Route::get('/compose', function () {
+	return view('compose');
+});
+
+Route::get('/selectmore', function () {
+	return view('selectmore');
+});
+
+Route::get('/sign-in', function () {
+	return view('signin');
+});
+
+Route::get('/sign-up', function () {
+	return view('signup');
+});
 
 Auth::routes(['login' => false]);
 

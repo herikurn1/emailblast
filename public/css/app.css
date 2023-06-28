@@ -65,7 +65,7 @@ section {
   display: block;
 }
 
-body {
+/* body {
   margin: 0;
   font-family: "Nunito", sans-serif;
   font-size: 0.9rem;
@@ -74,7 +74,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #f8fafc;
-}
+} */
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
