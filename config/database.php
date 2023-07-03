@@ -111,12 +111,9 @@ return [
         'sqlsrv' => [
             'driver'            => 'sqlsrv',
             'url'               => env('DATABASE_URL'),
-            'host'              => '192.168.151.195',
+            'host'              => '.',
             //'host'              => '35.247.151.208',
             'port'              => '1433',
-<<<<<<< HEAD
-            'database'          => 'MAGANG',
-=======
             'database'          => 'magang',
             'username'          => 'sa',
             'password'          => 'Sm4rtc!ty',
@@ -145,7 +142,6 @@ return [
             'host'              => '172.16.0.100',
             'port'              => '1433',
             'database'          => 'inventory_spm_center',
->>>>>>> 58a29582cdd1f5b834f176be7f4365e60080f76c
             'username'          => 'sa',
             'password'          => 'Sm4rtc!ty',
             'charset'           => 'utf8',

@@ -106,7 +106,7 @@
         <!-- <div class="contents2">
             <h1>Create Template</h1> -->
         <div class="headline-drafts">
-            <h1>Create Email</h1>
+            <h1>Composing Email</h1>
             <div class="contents2">
                 <main class="login-form">
                     <!-- <div class="container" style="border-radius: 10px";> -->
@@ -126,25 +126,25 @@
                                         <!-- <div class="panel">
 
                                                 </div> -->
-                                        <form id="Login">
-
+                                        <form id="Login" action="/compose" method="POST">
+@csrf
                                             <div class="form-group">
 
 
-                                                <input type="title" class="form-control " id="inputTitle" placeholder="Title">
+                                                <input name="title" type="title" class="form-control " id="inputTitle" placeholder="Title">
 
                                             </div>
 
                                             <div class="form-group">
 
-                                                <input type="subject" class="form-control" id="inputSubject" placeholder="Subject">
+                                                <input name="subject" type="subject" class="form-control" id="inputSubject" placeholder="Subject">
 
                                             </div>
 
                                             <div class="form-group">
 
 
-                                                <input type="email" class="form-control" id="inputEmail" placeholder="From">
+                                                <input name="from_email" type="email" class="form-control" id="inputEmail" placeholder="From">
 
                                             </div>
 
@@ -206,7 +206,7 @@
 
 
                     <div class="col">
-                        <button class="col btn btn-orange-moon btn-rounded" style="font-weight: bold">Next
+                        <button class="col btn btn-orange-moon btn-rounded" style="font-weight: bold">Send
                         </button>
 
                     </div>
