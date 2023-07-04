@@ -223,8 +223,6 @@ input, textarea, button { margin-top:10px }
 .main-div{
     margin-top: -379px;
     width: 94rem;
-    html,
-    body
     }
     
     .kiri{
@@ -586,4 +584,3 @@ input, textarea, button { margin-top:10px }
       padding: 6px 12px;
       margin: 0 10px;
     }
-    
