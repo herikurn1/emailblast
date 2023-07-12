@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+
 use App\Http\Controllers\ComposeController;
+use App\Http\Controllers\CreateController;
 
 
 /*
@@ -28,14 +30,8 @@ Route::get('signout', 'Sys\SysController@signout');
 Route::get('/hello', function () {
 });
 
-// Route::get('/', 'HomeController@index');
- Route::get('/home', 'HomeController@index')->name('home');
-
-
-
-Route::get('/#', function () {
-	return view('home');
-});
+Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/welcome', function () {
 	return view('welcome');
@@ -49,14 +45,8 @@ Route::get('/draft', function () {
 	return view('draft');
 });
 
-
-
 Route::get('/history', function () {
 	return view('history');
-});
-
-Route::get('/compose', function () {
-	return view('compose');
 });
 
 Route::get('/selectmore', function () {
@@ -143,5 +133,8 @@ Route::get('/carousel', function () {
 	return view('carousel');
 });
 
-Route::get('/create', [ComposeController::class, 'index']);
-Route::post('/compose', [ComposeController::class, 'send']);
+Route::get('/create', [CreateController::class, 'index']);
+Route::post('/create/send', [CreateController::class, 'send']);
+
+Route::get('/compose', [ComposeController::class, 'index'])->name('compose');
+Route::post('/compose/send', [ComposeController::class, 'send']);
